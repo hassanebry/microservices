@@ -13,6 +13,7 @@
       <module>fraud</module>
     <module>euruka-server</module>
       <module>clients</module>
+    <module>notification</module>
   </modules>
 
   <name>amigosservices</name>
