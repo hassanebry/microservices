@@ -40,8 +40,11 @@ public class CustomerService {
         notificationClient.sendNotification(
                 new NotificationRequest(
                         customer.getId(),
-                        customer.getFirstName(),
-                        String.format("Hi %s, welcome to Amigoscode...", customer.getFirstName())));
+                        customer.getEmail(),
+                        String.format("Hi %s, welcome to Amigoscode...",
+                                customer.getFirstName())
+                )
+        );
 
     }
 }

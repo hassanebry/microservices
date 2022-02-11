@@ -13,16 +13,16 @@ public class NotificationService {
 
     private final NotificationRepository notificationRepository;
 
-    public void send(NotificationRequest notificationRequest){
-            notificationRepository.save(
-                    Notification.builder()
-                            .toCustomerId(notificationRequest.toCustomerId())
-                            .toCustomerEmail(notificationRequest.toCustomerName())
-                            .sender("Hassane")
-                            .message(notificationRequest.message())
-                            .sentAt(LocalDateTime.now())
-                            .build()
-            );
+    public void send(NotificationRequest notificationRequest) {
+        notificationRepository.save(
+                Notification.builder()
+                        .toCustomerId(notificationRequest.toCustomerId())
+                        .toCustomerEmail(notificationRequest.toCustomerName())
+                        .sender("Amigoscode")
+                        .message(notificationRequest.message())
+                        .sentAt(LocalDateTime.now())
+                        .build()
+        );
     }
 
 }
