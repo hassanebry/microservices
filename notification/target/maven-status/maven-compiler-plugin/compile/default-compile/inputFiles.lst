@@ -1,0 +1,7 @@
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/NotificationApplication.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/Notification.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/NotificationRepository.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/NotificationController.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/NotificationService.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/NotificationConfig.java
+/Users/hassanebarry/Documents/MyTraining/microservices/notification/src/main/java/com/amigoscode/notification/rabbitmq/NotificationConsumer.java
